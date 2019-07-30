@@ -27,7 +27,6 @@
      
       </a-scene>
     <script>
-      window.alert('hoge');
       // 間違い探し
       // 迷路脱出
       // 条件付けゲーム
@@ -40,9 +39,10 @@
         var scoreBoard = document.querySelector('#scoreBoard');
 
         var hoge = document.querySelector('#hoge');
+        window.alert(hoge);
         hoge.addEventListener('click', () => {
           console.log(++score);
-          alert(score);
+          window.alert(score);
           scoreBoard.innerHTML = score;
         });
     </script>
