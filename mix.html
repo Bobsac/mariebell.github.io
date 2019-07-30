@@ -25,7 +25,9 @@
             <a-animation begin="mouseleave" attribute="scale" delay="100" to="1 1 1"></a-animation>
           </a-sphere>
       
-          <a-box position="0 6 -7" color="orange" id="sample-obj"></a-sphere>
+          <a-box position="0 6 -7" color="orange" id="sample-obj">
+            <a-animation rotation="0 0 0" to="0 360 0" dur="500" easing="linear"></a-animation>
+          </a-sphere>
       
           <a-sphere position="5 2 -7" color="maroon">
             <a-animation begin="click" attribute="visible" dur="5000" to="false" repeat="indefinite">
