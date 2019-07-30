@@ -4,6 +4,9 @@
     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
   </head>
   <body>
+      <div>
+        <h1 id="scoreBoard">0</h1>
+      </div>
       <a-scene>
         <a-curvedimage material="repeat: 32 24" animation="property: rotation; from: 0 0 0; to: 0 360 0; dur: 20000; easing: linear; loop: true" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/OM_MANI_PADME_HUM_%28Lanydza_script%29.svg/2880px-OM_MANI_PADME_HUM_%28Lanydza_script%29.svg.png" height="60" radius="40" theta-length="360" position="0 0 0"></a-curvedimage>
         <a-light type="ambient" color="#FFFFFF" intensity="3" position="0 100 0"></a-light>
@@ -12,11 +15,32 @@
         <a-plane material="shader: flat" src="https://cdn.shopify.com/s/files/1/0969/9128/products/TSPF42_956ec7f9-949a-4160-93df-416b3fe54f09.jpg" height="100" width="100" rotation="-90 0 0" ></a-plane>
         <a-plane src="https://cdn.shopify.com/s/files/1/0969/9128/products/TSPF42_956ec7f9-949a-4160-93df-416b3fe54f09.jpg" height="100" width="100" rotation="90 0 0" position="0 30 0"></a-plane>
         <a-cylinder material="metalness: 0.5; repeat: 16 2; side: back" src="https://siliguritimes.com/wp-content/uploads/2017/02/buddha1.jpg" height="65" radius="42"></a-cylinder>
+      
+      
+        <a-sphere position="-5 2 -7" color="#EF2D5E" id="hoge">
+          <a-animation begin="click" attribute="scale" dur="100" easing="ease-in-sine" to="1.2 1.2 1.2"></a-animation>
+          <a-animation begin="mouseleave" attribute="scale" delay="100" to="1 1 1"></a-animation>
+        </a-sphere>
+      
       </a-scene>
+      
     <script>
       // 間違い探し
       // 迷路脱出
       // 条件付けゲーム
+        var score = 0;
+        var clickElement = document.getElementById("sample-obj");
+        clickElement.addEventListener("click", function() {
+          location.href = "https://thom-i.github.io/aframe/030/sample-030/";
+        },false);
+
+        var scoreBoard = document.querySelector('#scoreBoard');
+
+        var hoge = document.querySelector('#hoge');
+        hoge.addEventListener('click', () => {
+          console.log(++score);
+          scoreBoard.innerHTML = score;
+        });
     </script>
   </body>
 </html>
