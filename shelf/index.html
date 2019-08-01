@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+  <title>A-Frame</title>
+  <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+</head>
+
+<body>
+  <div>
+    <h1 id="scoreBoard">0</h1>
+  </div>
+  <a-scene>
+    <a-camera position="0 0 0">
+      <a-entity cursor="fuse: true; fuseTimeout: 500"
+                       position="0 0 -1" 
+                       geometry="primitive: ring"
+                       scale="0.03 0.03 0.03" 
+                       material="color: red; shader: flat">
+        <a-animation begin="cursor-fusing" easing="linear" attribute="scale"
+                               fill="none" from="0.03 0.03 0.03" to="0.001 0.001 0.001"></a-animation>
+      </a-entity>
+    </a-camera>
+
+    <a-sphere position="-5 2 -7" color="#EF2D5E" id="hoge">
+      <a-animation begin="click" attribute="scale" dur="100" easing="ease-in-sine" to="1.2 1.2 1.2"></a-animation>
+      <a-animation begin="mouseleave" attribute="scale" delay="100" to="1 1 1"></a-animation>
+    </a-sphere>
+
+    <a-sphere position="0 6 -7" color="skyblue" id="sample-obj"></a-sphere>
+
+    <a-sphere position="5 2 -7" color="red">
+      <a-animation begin="click" attribute="visible" dur="5000" to="false" repeat="indefinite">
+    </a-sphere>
+
+    <a-box position="5 -3 -7" color="skyblue">
+      <a-animation attribute="rotation" from="0 0 0" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+    </a-box>
+
+    <a-box position="-5 -3 -7" color="skyblue">
+      <a-animation attribute="rotation" from="0 0 0" to="0 360 0" repeat="indefinite" easing="linear"></a-animation>
+    </a-box>
+
+
+  </a-scene>
+
+  <script type="text/javascript">  
+
+  
+    var score = 0;
+    var clickElement = document.getElementById("sample-obj");
+    clickElement.addEventListener("click", function() {
+      location.href = "https://thom-i.github.io/aframe/030/sample-030/";
+    },false);
+
+    var scoreBoard = document.querySelector('#scoreBoard');
+
+    var hoge = document.querySelector('#hoge');
+    hoge.addEventListener('click', () => {
+      console.log(++score);
+      scoreBoard.innerHTML = score;
+    });
+  </script>
+
+</body>
+
+</html>
