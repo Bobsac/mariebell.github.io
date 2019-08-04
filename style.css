@@ -1,0 +1,14 @@
+#finish {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+  line-height: 100px;
+  font-size: 40px;
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+}
