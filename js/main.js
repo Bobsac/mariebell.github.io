@@ -138,7 +138,7 @@ function gameD() {
     console.log(t);
     t += 0.01;
     requestAnimationFrame(render);
-    movePlayer();
+    //movePlayer();
   }
   render();
 }
