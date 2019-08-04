@@ -4,6 +4,9 @@ AFRAME.registerComponent('hello-world', {
   },
   init: () => {
     console.log(this.data.message);
+    this.el.addEventListener('click', (evt) => {
+      console.log('hogehogehoge');
+    })
   }
 });
 
