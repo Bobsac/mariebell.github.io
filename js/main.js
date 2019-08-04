@@ -27,7 +27,7 @@ var goToStageD = document.getElementById('goToStageD');
 if(goToStageD) {
   goToStageD.addEventListener('click', function () {
     console.log('stageD selected');
-    location.href = 'http://' + location.host + '/mariebell.github.io/maze.html';
+    location.href = 'http://' + location.host + '/mariebell.github.io/blackmaze.html';
   });
 }
 
@@ -58,10 +58,10 @@ function gameA() {
 
 //ステージB 風船割り
 function gameB() {
-  //ステージB 風船こわし
   var score = 0;
   var gameStatus = true;
 
+  //風船が割れたらスコアを増やす
   var jcrushBalloon = $('.countup');
   jcrushBalloon.each(function() {
     $(this).on('click', function() {
@@ -73,6 +73,7 @@ function gameB() {
     });
   });
 
+  //制限時間
   var sec = 30;
   var startDate = new Date();
   console.log("start: ", startDate);
