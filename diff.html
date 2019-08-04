@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>A-Frame Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
-  <script src="./asset.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/asset.js"></script>
 </head>
 <body>
-  <a-scene>
+  <a-scene data-game="gameA">
     <a-camera>
       <a-cursor raycaster="objects: [data-raycastable]" fuse="true" fuse-timeout="500"></a-cursor>
     </a-camera>
@@ -24,6 +25,6 @@
   </a-scene>
   
 
-  <script src="./main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
