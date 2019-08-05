@@ -19,7 +19,7 @@ var goToStageC = document.getElementById('goToStageC');
 if(goToStageC) {
   goToStageC.addEventListener('click', function () {
     console.log('stageC selected');
-    location.href = 'http://' + location.host + '/mariebell.github.io/exit.html';
+    location.href = 'http://' + location.host + '/mariebell.github.io/room.html';
   });
 }
 //迷路
