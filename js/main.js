@@ -100,7 +100,29 @@ function gameB() {
 
 //ステージC 脱出ゲーム
 function gameC() {
+  //A B Cの順番に見ると鍵が開く
+console.log('hogehoge');
+  //大画面開く
+  var gameStatus = true;
+  var colors = [];
 
+  //直近3回のボールをストック
+  var jcollectColor = $('.collect');
+  jcollectColor.each(function() {
+    $(this).on('click', function() {
+      if (!gameStatus) {
+        return false;
+      }
+      //$('#scoreBoard').text('Score: ' + ++score);
+      //$(this).remove();
+
+      colors.push($(this).attr('color'));
+      if (colors.length > 3) {
+        colors.shift();
+      }
+      console.log(colors);
+    });
+  });
 }
 
 //ステージD 迷路
