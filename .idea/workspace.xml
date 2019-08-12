@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca8a24c6-a1c0-4ac3-b0e6-c18b6db3a4ef" name="Default" comment="">
+    <list default="true" id="2e4bf371-c816-4247-945a-c61fc5922b5b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/catch.html" afterPath="$PROJECT_DIR$/catch.html" />
-      <change beforePath="$PROJECT_DIR$/diff.html" afterPath="$PROJECT_DIR$/diff.html" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/asset.js" afterPath="$PROJECT_DIR$/js/asset.js" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change beforePath="$PROJECT_DIR$/maze.html" afterPath="$PROJECT_DIR$/maze.html" />
-      <change beforePath="$PROJECT_DIR$/room.html" afterPath="$PROJECT_DIR$/room.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="103" column="24" lean-forward="true" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -31,157 +31,63 @@
       <file leaf-file-name="maze.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maze.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="n#a-entity#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catch.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="catch.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="285">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
-                <element signature="n#a-sphere#1;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#2;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#3;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#4;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#5;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#6;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#7;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#8;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#9;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#10;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#11;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#12;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#13;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#14;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#15;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#16;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#17;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#18;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#31;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#32;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#33;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#34;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#35;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#36;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#37;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#38;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#39;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#40;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#41;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#42;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#43;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#44;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#45;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#46;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#47;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#48;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#49;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#1;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#2;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#3;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#4;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#5;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#6;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#7;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#8;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#9;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#10;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#11;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#12;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#13;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#14;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#15;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#16;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#17;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#18;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#31;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#32;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#33;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#34;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#35;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#36;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a-cylinder#37;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="room.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/room.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-              <folding>
-                <element signature="n#a-entity#0;n#a-camera#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#1;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#2;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#3;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a-sphere#4;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asset.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/asset.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diff.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diff.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blackmaze.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blackmaze.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="5" column="212" lean-forward="false" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>-4 -10</find>
-      <find>}</find>
-      <find>aframe</find>
-      <find>key</find>
-      <find>maze.js</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>0 -7</replace>
-      <replace>-2 -10</replace>
-      <replace>-4 -10</replace>
-      <replace>6 -10</replace>
-      <replace>}¥n</replace>
-      <replace>}</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,19 +95,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/shelf/blackmaze.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/blackmaze.html" />
-        <option value="$PROJECT_DIR$/shelf/A-Frame sample_files/maze.js" />
-        <option value="$PROJECT_DIR$/shelf/maze.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/maze.html" />
         <option value="$PROJECT_DIR$/catch.html" />
-        <option value="$PROJECT_DIR$/room.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/diff.html" />
       </list>
     </option>
   </component>
@@ -234,6 +128,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,36 +136,15 @@
               <item name="mariebell.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="mariebell.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="mariebell.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mariebell.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/shelf" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/shelf" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -292,40 +166,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca8a24c6-a1c0-4ac3-b0e6-c18b6db3a4ef" name="Default" comment="" />
-      <created>1564900177962</created>
+      <changelist id="2e4bf371-c816-4247-945a-c61fc5922b5b" name="Default" comment="" />
+      <created>1565581894773</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564900177962</updated>
-      <workItem from="1564900181383" duration="13812000" />
-      <workItem from="1565087627157" duration="2615000" />
+      <updated>1565581894773</updated>
+      <workItem from="1565581897950" duration="358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16427000" />
+    <option name="totallyTimeSpent" value="358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="490" y="23" width="931" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24971879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24975799" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -340,7 +213,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -349,289 +222,57 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="n#a-entity#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding>
-            <element signature="n#a-entity#0;n#a-camera#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#1;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#2;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#3;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#4;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="346" selection-end-column="7" />
-          <folding>
-            <element signature="n#a-sphere#1;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#2;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#3;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#4;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#5;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#6;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#7;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#8;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#9;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#10;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#11;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#12;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#13;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#14;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#15;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#16;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#17;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#18;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#31;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#32;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#33;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#34;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#35;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#36;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#37;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#38;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#39;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#40;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#41;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#42;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#43;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#44;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#45;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#46;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#47;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#48;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#49;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="162" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blackmaze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="212" lean-forward="true" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelf/blackmaze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="53920" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelf/maze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelf/A-Frame sample_files/aframe.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelf/A-Frame sample_files/maze.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelf/A-Frame sample_files/aframe-extras.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelf/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shelf/maze.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <element signature="n#a-sphere#1;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#2;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#3;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#4;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#5;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#6;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#7;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#8;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#9;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#10;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#11;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#12;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#13;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#14;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#15;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#16;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#17;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#18;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#31;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#32;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#33;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#34;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#35;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#36;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#37;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#38;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#39;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#40;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#41;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#42;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#43;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#44;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#45;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#46;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#47;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#48;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#49;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#1;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#2;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#3;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#4;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#5;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#6;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#7;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#8;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#9;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#10;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#11;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#12;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#13;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#14;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#15;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#16;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#17;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#18;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#19;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#20;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#21;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#22;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#23;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#24;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#25;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#26;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#27;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#28;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#29;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#30;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#31;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#32;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#33;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#34;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#35;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#36;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a-cylinder#37;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="n#a-entity#0;n#a-camera#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#1;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#2;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#3;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a-sphere#4;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blackmaze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="212" lean-forward="false" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="n#a-entity#0;n#a-scene#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="24" lean-forward="true" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/asset.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>

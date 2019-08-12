@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A-Frame Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/aframe.js"></script>
+</head>
+<body>
+  <div style="color: black; z-index: 99; position: fixed; top: 0; left: 0;">
+    <h1 id="scoreBoard">Score: 0</h1>
+    <h1 id="timeKeeper">Time: 30</h1>
+    <div id="finish"></div>
+  </div>
+  <a-scene data-game="gameB" auto-enter-vr>
+    <a-camera position="0 2 5">
+      <a-entity
+        animation__fusing="property: material.color; startEvents: fusing; easing: easeInCubic; dur: 100; from: rgba(255,255,0,1); to: rgba(255,255,0,1)"
+        animation__click="property: material.color; startEvents: click; easing: easeInCubic; dur: 100; from: rgba(255,0,0,1); to: rgba(255,0,0,1)"
+        animation__mouseleave="property: material.color; startEvents: mouseleave; easing: easeInCubic; dur: 500; from: rgba(0,0,0,1); to: rgba(0,0,0,1);"
+        cursor="fuse: true; fuseTimeout: 100"
+        material="color: black; shader: flat"
+        position="0 0 -1"
+        scale="0.05 0.05"
+        geometry="primitive: ring">
+      </a-entity>
+    </a-camera>
+
+    <a-cylinder class="countup" position="2 2 -10" scale="1 1 1" position="90 0 180" height="0.25" color="gold" material="transparent: false;"
+              animation__rotation="property: rotation; easing: linear; from: 90 0 -180; to: 90 0 180; dur: 1800; loop: true;"
+              animation__click="property: position; startEvents: click; easing: linear; dur: 500; to: 2 6 -10;"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 500; to: 0;"
+    >
+    </a-cylinder>
+    <a-sphere class="countup" position="4 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="6 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="8 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="10 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-2 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-4 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-6 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-8 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-10 2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+
+    <a-sphere class="countup" position="2 4 -10" scale="1 1 1" color="gray"
+      animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+      animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+      animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="4 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="6 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="8 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="10 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-2 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-4 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-6 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-8 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-10 4 -10" scale="1 1 1" color="gray"
+    animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+    animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+    animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+
+    <a-sphere class="countup" position="2 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="4 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="6 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="8 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="10 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-2 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-4 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-6 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-8 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-10 0 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+
+    <a-sphere class="countup" position="2 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="4 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="6 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="8 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="10 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-2 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-4 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-6 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-8 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-10 -2 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+
+    <a-sphere class="countup" position="2 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="4 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="6 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="8 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="10 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-2 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-4 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-6 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-8 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+    <a-sphere class="countup" position="-10 6 -10" scale="1 1 1" color="gray"
+              animation__fusing="property: scale; startEvents: fusing; easing: linear; dur: 100; from: 1 1 1; to: 1.2 1.2 1.2"
+              animation__click="property: scale; startEvents: click; easing: linear; dur: 100; from: 1.2 1.2 1.2; to: 1.5 1.5 1.5"
+              animation__click__disappear="property: material.opacity; startEvents: click; easing: linear; dur: 100; to: 0"
+    >
+    </a-sphere>
+
+
+    <a-box position="0 4 7" color="orange" id="sample-obj"
+    animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 5000"
+    ></a-box>
+
+    <a-plane id="countPanel" position="0 15 -5" scale="5 5 5" rotation="0 0 0" material="src: url(img/count3.png)" color="lightblue"
+      animation__1="property: position; to: 0 6 -5; dur: 500; easing: easeOutCubic"
+      animation__2="property: position; from: 0 6 -5; to: 0 15 -5; dur: 1000; easing: easeOutCubic; delay: 4500"
+    ></a-plane>
+    
+    <a-plane position="0 -5 -5" rotation="-90 0 0" width="200" height="200" color="#7BC8A4"></a-plane>
+    <a-sky color="#DFDF33"></a-sky>
+  </a-scene>
+  <script src="js/asset.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
