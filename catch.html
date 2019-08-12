@@ -267,9 +267,10 @@
     animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 5000"
     ></a-box>
 
-    <a-plane id="countPanel" position="0 15 -5" scale="5 5 5" rotation="0 0 0" material="src: url(img/count3.png)" color="lightblue"
+    <a-plane id="countPanel" position="0 15 -5" scale="5 5 5" rotation="0 0 0" material="src: url(img/count3.png); transparent: true;" color="lightblue"
       animation__1="property: position; to: 0 6 -5; dur: 500; easing: easeOutCubic"
       animation__2="property: position; from: 0 6 -5; to: 0 15 -5; dur: 1000; easing: easeOutCubic; delay: 4500"
+      animation__2__disappear="property: material.opacity; easing: linear; dur: 500; to: 0; delay: 4500;"
     ></a-plane>
     
     <a-plane position="0 -5 -5" rotation="-90 0 0" width="200" height="200" color="#7BC8A4"></a-plane>
